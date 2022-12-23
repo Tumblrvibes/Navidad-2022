@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    font-family: 'Humble Lettering', sans-serif;
+
+                                                
+                                                
+}
+#deseos{
+    background-image: url("arbol.jpg");
+    padding: 200px;
+    color: yellow;
+}
+#desear{
+    font-family: 'TattooLetteringBlack', sans-serif;
+    color: white;
+}
+.linea { height: 6px; background-color: #000; width: 70px; margin: 8px auto;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    background-color: rgb(15, 56, 15);
+    width: 100%;
+    margin-top: 5px;
+    top: 0px;
+    z.index: 10;
+    font-family: 'Snowman', sans-serif;
+    font-size:  40px;
+}
+.links{
+    display:inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 40px;
+}
+.video{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    padding-top: 800px;
+    z-index: -1;
+}
+#regalos{
+    font-family: 'Candy Cane (Unregistered)', sans-serif;
+    font-size: 30px;
+    color: red;                                               
+}
+#videos{
+    background: linear-gradient(rgb(199, 199, 77),rgb(90, 9, 9));
+    font-family: 'Grinched', sans-serif;                                           
+    font-size: 30px;
+    color: white;
+    padding-top: 50px;                                               
+}
+#boton{
+    padding-top:200px ;
+}
