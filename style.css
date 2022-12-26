@@ -53,5 +53,14 @@ body{
     padding-top: 50px;                                               
 }
 #boton{
-    padding-top:200px ;
+    margin-top: 45px ;
+    margin-left: 25px;
+    z-index: 10;
+    position: fixed;
+    display: table-column;
+    width: 50px;
+    height: 30px;
+    background-color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 40%;
 }
