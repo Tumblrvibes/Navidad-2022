@@ -1,7 +1,14 @@
 function reproducir(){
     var audio = document.getElementById("audio");
-    audio.play();
     var boton = document.getElementById("boton");
-    boton.value="pause";
 
+    if(boton.value == "play"){
+        audio.play();
+        boton.value = "pause";
+    }
+    else{
+        audio.pause();
+         boton.value = "play";
+
+}
 }
